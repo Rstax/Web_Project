@@ -1,0 +1,149 @@
+body{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+}
+#HealthCare{
+    font-family:Georgia, serif;
+    color: rgb(0, 5, 8);
+    font-size: 1.25em;
+    font-weight: 800;
+    text-decoration: none;
+    border-radius: 5px;
+    padding:0.2em 0.5em;
+    margin:0em 0.5em;
+}
+.topnav{
+    margin-top: 0px;
+    border-width:0px;
+    background-image: url('images/Signup.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    font-size: 20px;
+    text-align: left;
+    padding: 0.75em 2em 0em 2em;
+    margin-bottom: 3em;
+}
+.topnav a{
+    font-family:Georgia, serif;
+    color: rgb(0, 5, 8);
+    font-size: 1.25em;
+    font-weight: 800;
+    text-decoration: none;
+    border-radius: 5px;
+    padding:0.2em 0.75em;
+    margin:0em 0.5em;
+    margin-left: 0px;
+}
+.topnav a{
+    transition-duration: 0.4s;
+}
+.topnav a:hover {
+    background-color: #020c0f;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 10px 50px 0 rgba(0,0,0,0.19);
+}
+.fa-sign-out{
+    padding-left: 35em;
+}
+#user{
+    text-align: center;
+    font-size: 40px;
+}
+
+.sidenav{
+    margin-left: 25px;
+    height: 100%;
+    width: 20%;
+    z-index: 1;
+    top: 0;
+    float: left;
+    left: 0;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+.sidenav a {
+    border: 2px #818181 solid;
+    border-bottom: 0px;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: #818181;
+    display: block;
+}
+.sidenav a:nth-child(1){
+    background-color:rgb(206, 69, 216);
+    color: #f1f1f1;
+}
+
+.dashboard{
+    float: left;
+    height:30%;
+    width:60%;
+    padding-top: 60px;
+    margin-left: 25px;
+}
+#doclist{
+    padding:10px;
+    height: 10%;
+    padding-bottom: 2px;
+    width:25%;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 2em;
+    font-size: x-large;
+    margin:0em 0em 2em 4em;
+    background-color: rgb(246, 215, 250);
+    margin-top: 2.5em;
+}
+#App{
+    padding:10px;
+    height: 10%;
+    padding-bottom: 2px;
+    width:25%;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 2em;
+    font-size: x-large;
+    margin:0em 0em 2em 4em;
+    background-color: rgb(246, 215, 250);
+    margin-top: 2.5em;
+}
+#Pre{
+    Padding:10px;
+    padding-bottom: 2px;
+    height: 10%;
+    width:25%;
+    text-align: center;
+    border-radius: 2em;
+    border: 2px solid rgb(255, 60, 60);
+    font-size: x-large;
+    margin:0em 0em 2em 4em;
+    background-color: rgb(246, 215, 250);
+}
+#His{
+    Padding:10px;
+    padding-bottom: 2px;
+    height: 10%;
+    width:25%;
+    text-align: center;
+    border-radius: 2em;
+    border: 2px solid rgb(255, 60, 60);
+    font-size: x-large;
+    margin:0em 0em 2em 4em;
+    background-color: rgb(246, 215, 250);
+}
+
+.dashboard a:active {
+    color: -webkit-link;
+}
+
+.appointment th{
+    margin: 10px;
+    padding: 10px 10px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,97 @@
+.d1{
+    width: 100%;
+    height: 30%;
+    padding: 40px;
+    background-color: darkcyan;
+    color: lightyellow;
+    text-align: center;
+}
+
+.topnav{
+    margin: 0em;
+    background-color: darkcyan ;
+    font-size: 20px;
+    text-align: right;
+    padding: 0.5em 4em 0em 4em;
+}
+.topnav a{
+    color: rgb(47, 141, 218);
+    font-weight: 700;
+    text-decoration: none;
+    border: 1.5px solid rgb(176, 217, 243);
+    border-radius: 5px;
+    padding:0.2em 0.5em;
+    margin:0em 0.5em;
+    background-color: whitesmoke;
+}
+
+.topnav a{
+    transition-duration: 0.4s;
+}
+  
+.topnav a:hover {
+    background-color: #bde5f1;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 10px 50px 0 rgba(0,0,0,0.19);
+}
+
+.topnav a:nth-child(4){
+    pointer-events: none;
+    background-color: rgb(238, 82, 82);
+    color:rgb(255, 255, 255);
+}
+
+Form input{
+    
+    border-radius: 10px;
+    font-size:18px;
+}
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+input, textarea{
+    padding: 6px;
+    margin: 5px 0;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+    width: 80%;
+    font-family:inherit;
+    font-size: inherit;
+}
+button{
+    color: royalblue;
+    appearance:none;
+    -webkit-appearance:none;
+    padding: 8px;
+    margin: 10px 10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+    width: 25%;
+    font-size: 40px;
+    font-size: 15px;
+}
+.d2{
+    padding-bottom: 15px;
+}
+.d3{
+    background-color: lightgoldenrodyellow;
+}
+.d4{
+    font-size: 26px;
+    font-weight: 500;
+}
+button:hover {
+    transition-duration: 0.4s;
+    color: white;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 10px 50px 0 rgba(0,0,0,0.19);
+    background-color: rgb(252, 67, 67);
+}

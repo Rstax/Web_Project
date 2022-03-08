@@ -1,0 +1,139 @@
+body {
+    background-image: url('images/Signup.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#HealthCare{
+    font-family:Georgia, serif;
+    color: rgb(0, 5, 8);
+    font-size: 1.25em;
+    font-weight: 800;
+    text-decoration: none;
+    border-radius: 5px;
+    padding:0.2em 0.5em;
+    margin:0em 0.5em;
+    padding-right: 21em;
+}
+.topnav{
+    font-size: 20px;
+    text-align: right;
+    padding: 0.75em 2em 0em 2em;
+    margin-bottom: 5em;
+}
+.topnav a{
+    font-family:Georgia, serif;
+    color: rgb(0, 5, 8);
+    font-size: 1.25em;
+    font-weight: 800;
+    text-decoration: none;
+    border-radius: 5px;
+    padding:0.2em 0.75em;
+    margin:0em 0.5em;
+}
+.topnav a{
+    transition-duration: 0.4s;
+}
+.midnav a{
+    transition-duration: 0.4s;
+}
+.Bottom span{
+    transition-duration: 0.4s;
+}
+.Form button,.Form a{
+    transition-duration: 0.4s;
+}  
+.topnav a:hover {
+    background-color: #020c0f;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 10px 50px 0 rgba(0,0,0,0.19);
+}
+.midnav{
+    margin: auto;
+    padding-left: 10em;
+    margin-bottom: 6em;
+    text-align:center;
+}
+.midnav a{
+    
+    padding-right:0em;
+    margin:auto;
+    border:0px;
+    font-family:Georgia, serif;
+    color: rgb(8, 0, 0);
+    font-size: 1.5em;
+    font-weight: 800;
+    text-decoration: none;
+    padding:0.2em;
+}
+.midnav a:hover {
+    background-color: whitesmoke;
+    color:rgb(9, 179, 23);
+    font-weight: 700;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 10px 50px 0 rgba(0,0,0,0.19);
+}
+
+.midnav a:nth-child(2){
+    pointer-events: none;
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+}
+h1{
+    padding-top: 1em;
+    padding-right: 11em;
+    margin-bottom: 30px;
+}
+
+Form input{
+    border-radius: 5px;
+    font-size:18px;
+    background-color: rgba(250, 254, 255, 0.8);
+}
+
+Form button{
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size:18px;
+    margin-right:0em;
+    font-weight: 800;
+    color:rgb(11, 126, 55);
+    padding:5px;
+    margin-left: 20em;
+}
+
+Form button:hover {
+    background-color: whitesmoke;
+    color:rgb(0, 0, 0);
+    font-weight: 800;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 10px 50px 0 rgba(0,0,0,0.19);
+}
+
+Form a{
+    font-family:Georgia, serif;
+    color: white;
+    background-color:rgb(84, 14, 214);
+    font-size: 1.25em;
+    font-weight: 800;
+    text-decoration: none;
+    border-radius: 5px;
+    padding:0.2em 0.5em;
+    margin:0em 0.5em;
+    border:2px solid white;
+    border-radius: 10px;
+}
+
+Form a:hover {
+    background-color: whitesmoke;
+    color:rgb(0, 0, 0);
+    font-weight: 800;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 10px 50px 0 rgba(0,0,0,0.19);
+}
+#Forgot{
+    font-size: small;
+    background-color: rgb(255, 255, 255 ,0);
+}
+#Forgot:hover{
+    background-color: rgb(255, 255, 255 ,0);
+    color: purple;
+}
+
